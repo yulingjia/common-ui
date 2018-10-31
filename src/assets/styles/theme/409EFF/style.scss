@@ -1,0 +1,244 @@
+$color: #409eff;
+$light-little-color: #66b1ff;
+$light-color: #def2ff;
+
+.custom-409eff {
+  .el-input__inner:focus, .el-textarea__inner:focus{
+    border-color: $color !important;
+  }
+
+  .el-radio__input.is-checked .el-radio__inner{
+    border-color: $color !important;
+    background: $color !important;
+  }
+
+  .el-radio__input.is-checked + .el-radio__label{
+    color: $color !important;
+  }
+
+  .el-date-table td.today span{
+    color: $color !important;
+  }
+
+  .el-cascader-menu__item.is-active{
+    color: $color !important;
+  }
+
+  .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+
+  .el-checkbox__input:hover .el-checkbox__inner,.el-checkbox__input.is-focus .el-checkbox__inner{
+    border-color: $color !important;
+  }
+  
+  .el-checkbox__input.is-checked + .el-checkbox__label{
+    color: $color !important;
+  }
+
+  .el-checkbox__label:hover{
+    color: $color !important;
+  }
+
+  .el-button--default:hover{
+    background-color: $light-color !important;
+    color: $color !important;
+    border-color: $color !important;
+  }
+  
+  .el-button--primary {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+  
+  .el-button--primary:hover {
+    background-color: $light-little-color!important;
+    color: #fff !important;
+  }
+  
+  .el-button--primary.is-plain{
+    color: $color !important;
+    background: $light-color !important;
+    border-color: $color !important;
+  }
+  
+  .el-button--primary.is-plain:hover {
+    background-color: $color !important;
+    color: #fff !important;
+  }
+  
+  .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+    border-left-color: $color !important;
+    color: $color !important;
+  }
+
+  .el-date-table td.current:not(.disabled) span{
+    background-color: $color !important;
+  }
+  
+  .mytitle {
+    b {
+      background: $color !important;
+    }
+  }
+  
+  #login .pwdIcon{
+    color: $color !important;
+  }
+
+  .list_title {
+    a {
+      color: $color !important;
+    }
+  }
+
+  .person_button_item {
+    &:hover {
+      color: $color !important;
+    }
+  }
+
+  .person_exit {
+    &:hover {
+      color: $color !important;
+    }
+  }
+
+  .message_container {
+    li {
+      &:hover .mes_cons {
+        color: $color !important;
+      }
+    }
+  }
+
+  .workOrder_container {
+    li:hover p {
+      color: $color !important;
+    }
+  }
+
+  .theme_container {
+    li:hover p {
+      color: $color !important;
+    }
+  }
+
+  .el-pager li.active {
+    color: $color !important;
+  }
+  
+  .el-pager li:hover{
+    color: $color !important;
+  }
+
+  .el-pagination__sizes .el-input .el-input__inner:hover{
+    color: $color !important;
+    border-color: $color !important;
+  }
+
+  .el-select .el-input.is-focus .el-input__inner{
+    border-color: $color !important;
+  }
+
+  .el-select-dropdown__item.selected{
+    color: $color !important;
+  }
+  
+  .el-pagination.is-background .el-pager li:not(.disabled).active{
+    background-color: $color !important;
+    color: #fff !important;
+  }
+  
+  .el-tabs__item.is-active {
+    color: $color !important;
+  }
+  
+  .el-tabs__item:hover{
+    color: $color !important;
+  }
+  
+  .submit-cont .list-container .tableBox .el-table th{
+    background-color: $light-color !important;
+  }
+  
+  .el-button--text{
+    color: $color !important;
+  }
+  
+  .el-dropdown-menu__item:hover{
+    background-color: $light-color !important;
+    color: $color !important;
+  }
+  
+  .main-home .home-top .item .item-icon i{
+    color: $color !important; 
+  }
+  
+  .main-home .home-top .item .item-info p[data-v-5e265133]{
+    color: $color !important; 
+  }
+  
+  .el-loading-spinner .path{
+    stroke: $color !important; 
+  }
+  
+  .el-loading-spinner .el-loading-text{
+    color: $color !important; 
+  }
+  
+  .list_con>li:hover{
+    color: $color !important; 
+  }
+  
+  #nprogress .bar {
+    background: $color !important; 
+  }
+
+  #nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px $color, 0 0 5px $color!important;
+  }
+  
+  #nprogress .spinner-icon {
+    border-top-color: $color!important;
+    border-left-color: $color!important;
+  }
+
+  .vue-image-crop-upload .vicp-wrap .vicp-operate a{
+    color: $color!important;
+  }
+
+  .el-tag{
+    color: $color!important;
+    border-color: $color!important;
+    background-color: $light-color!important;
+  }
+
+  .el-switch__label.is-active{
+    color: $color!important;
+  }
+
+  .el-switch.is-checked .el-switch__core{
+    background-color: $color!important;
+    border-color: $color!important;
+  }
+
+  .el-message-box__headerbtn .el-message-box__close:hover{
+    color: $color!important;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close:hover{
+    color: $color!important;
+  }
+
+  .message-btn:hover{
+    border: 1px solid $color!important;
+    color: $color!important;
+  }
+}
